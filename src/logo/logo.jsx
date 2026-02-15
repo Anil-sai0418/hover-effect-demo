@@ -102,24 +102,25 @@
 
 // NOTE: Load "Mrs Saint Delafield" font via Google Fonts in index.html
 
+import React from "react";
+
 export default function BrandLogo() {
   return (
-    <div className="flex flex-col items-center justify-center p-10">
-      {/* Container for the overlapping effect */}
+    <div className="flex flex-col items-center justify-center p-6">
       <div className="relative flex flex-col items-center">
 
-        {/* The Signature (Anil) */}
+        {/* Signature Name */}
         <h1
-          className="text-8xl text-zinc-800 leading-none"
-          style={{ fontFamily: "'Mrs Saint Delafield', cursive" }}
+          className="text-5xl md:text-6xl text-zinc-800 leading-none"
+          style={{ fontFamily: '"Mrs Saint Delafield", cursive' }}
         >
           Anil
         </h1>
 
-        {/* The "SAI" Text - Positioned to mimic the image */}
+        {/* SAI Text */}
         <div
-          className="text-sm font-light tracking-[0.8em] text-zinc-600 uppercase -mt-4 ml-4"
-          style={{ fontFamily: 'system-ui, sans-serif' }}
+          className="text-[10px] md:text-xs font-light tracking-[0.6em] text-zinc-600 uppercase -mt-3 ml-3"
+          style={{ fontFamily: "system-ui, sans-serif" }}
         >
           SAI
         </div>
